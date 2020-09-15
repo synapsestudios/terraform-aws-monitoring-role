@@ -1,11 +1,13 @@
 output "synapsestudios_grafana_key" {
   description = "AWS Access Key ID to be used with Grafana"
   value       = aws_iam_access_key.synapsestudios_grafana_key.id
+  sensitive   = true
 }
 
 output "synapsestudios_grafana_secret" {
   description = "AWS Access Key Secret to be used with Grafana"
   value       = aws_iam_access_key.synapsestudios_grafana_key.secret
+  sensitive   = true
 }
 
 output "role" {
