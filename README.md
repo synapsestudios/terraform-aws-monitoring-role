@@ -1,12 +1,13 @@
 # AWS Monitoring Role
 
+This module creates an IAM role and AWS EC2 Instance profile to be used with systems performing monitoring tasks. 
 
 <!-- BEGINNING OF PRE-COMMIT-TERRAFORM DOCS HOOK -->
 ## Requirements
 
 | Name | Version |
 |------|---------|
-| terraform | ~> 0.12.6 |
+| terraform | ~> 0.12.29 |
 | aws | ~> 2.53 |
 
 ## Providers
